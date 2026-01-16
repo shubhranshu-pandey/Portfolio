@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "DevOps Engineer. I love building things and helping others.",
   summary:
-    "At the start of 2022, [I began my academic journey in Computer Science](/#education) with real-world development work as a full-stack engineer. I'm passionate about building complete platforms, working with modern technologies like React, Node.js, and cloud services. [I've contributed to open-source projects and maintain an active GitHub presence.](https://github.com/shubhranshupandey) I'm passionate about merging creativity with code to craft seamless, scalable, and intelligent web experiences.",
+    "[At the start of my academic journey in Computer Science](/#education), I began building practical, [real-world projects with a strong focus on cloud and DevOps fundamentals](https://github.com/shubhranshu-pandey). I enjoy working with technologies like AWS, Azure, Docker, Linux, and CI/CD tools to design reliable and scalable systems. Through hands-on projects and formal training, I have developed a solid understanding of automation, serverless architecture, and infrastructure workflows. I am motivated by continuous learning and enjoy applying engineering principles to solve real problems efficiently.",
   avatarUrl: "/Photo w bg.png",
   skills: [
     "AWS",
@@ -51,7 +51,7 @@ export const DATA = {
     { href: "https://drive.google.com/file/d/1VUASJGNUxCviYq7z2SKhGjkz9arEnK4G/view?usp=share_link", icon: FileTextIcon, label: "CV", target: "_blank" },
   ],
   contact: {
-    email: "shubhranshupandey@gmail.com",
+    email: "shubhranshu2192@gmail.com",
     tel: "+91 1234567890",
     social: {
       GitHub: {
@@ -68,7 +68,7 @@ export const DATA = {
         navbar: true,
         target: "_blank",
       },
-    
+
       email: {
         name: "Send Email",
         url: "#",
@@ -149,7 +149,11 @@ export const DATA = {
         "Docker",
       ],
       links: [
-
+        {
+          type: "Website",
+          href: "https://qr.shubhranshu.tech",
+          icon: <Icons.globe className="size-3" />,
+        },
         {
           type: "Source",
           href: "https://github.com/shubhranshu-pandey/Serverless-QR-Code-generator",
@@ -161,101 +165,106 @@ export const DATA = {
     },
 
     {
-      title: "Query Quest",
-      href: "https://queryquestmern.vercel.app/",
-      dates: "Sep 2024 - Nov 2024",
+      title: "Lost and Found",
+      href: "#",
+      dates: "Jan 2025",
       active: true,
       description:
-        "With the launch of QueryQuest, I built a platform that helps developers and data analysts optimize, explore, and execute SQL queries with ease. QueryQuest simplifies database interaction by offering real-time query execution, optimization suggestions, and performance insights. It's a powerful, intuitive way to enhance database management, troubleshoot faster, and work more efficiently on data-driven projects.",
+        "Built with a structured backend and a responsive frontend, the application focuses on simplicity, usability, and data reliability. This project strengthened my understanding of full-stack development, backend API integration, and collaborative project structuring, while also providing hands-on experience in implementing role-based access (moderator login) and database management.",
       technologies: [
         "ReactJS",
-        "TailwindCSS",
-        "Node,Js",
+        "Node.Js",
         "Express",
-        "MongoDB",
+        "JavaScript",
+        "SQLite",
+        "HTML",
+        "CSS",
       ],
       links: [
         {
           type: "Website",
-          href: "https://queryquestmern.vercel.app/",
+          href: "#",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/shubhranshu-pandey/QueryQuest",
+          href: "https://github.com/shubhranshu-pandey/Lost-and-Found",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/P2.png",
-    
+      image: "/LostandFound.png",
+
     },
-    
+
     {
-      title: "humanchain-incident-api",
-      href: "https://humanchain-incident-api.vercel.app/",
+      title: "CipherSQLStudio",
+      href: "https://cipherschool.shubhranshu.tech",
       dates: "Mar 2025 - Apr 2025",
       active: true,
       description:
-        "​With the launch of the HumanChain Incident API, I developed a RESTful service to log and manage hypothetical AI safety incidents. Built as a take-home assignment for HumanChain's Backend Intern position, it features a user-friendly web interface with CRUD operations and integrates MongoDB for data persistence. This project demonstrates practical backend development skills and database integration.",
+        "CipherSQLStudio is a full-stack SQL learning platform that allows users to practice SQL through hands-on assignments with real-time query execution in a sandboxed PostgreSQL environment and AI-powered hints. It includes a Monaco-based SQL editor, difficulty-based challenges, progress tracking, secure JWT authentication, and a responsive interface. The platform is built using React, Vite, SCSS, Monaco Editor on the frontend and Node.js, Express, MongoDB Atlas, PostgreSQL (Docker), JWT, and Groq AI / Google Gemini on the backend, showcasing strong full-stack and database-driven application design.",
       technologies: [
-        "Typescript",
         "ReactJS",
+        "Vite",
+        "SCSS",
+        "Monaco Editor",
         "Node.js",
         "Express",
-        "MongoDB",
-        "TailwindCSS",
+        "MongoDB Atlas",
+        "PostgreSQL (Docker)",
+        "JWT Auth",
+        "Groq AI",
+        "Docker"
 
       ],
       links: [
         {
           type: "Website",
-          href: "https://humanchain-incident-api.vercel.app/",
+          href: "https://cipherschool.shubhranshu.tech",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/shubhranshu-pandey/humanchain-incident-api",
+          href: "https://github.com/shubhranshu-pandey/CipherSQLStudio",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/P3.png",
-  
+      image: "/CipherSchoolSQL.png",
+
     },
-    
+
     {
-      title: "YumYum-restaurant website",
-      href: "https://yummyum.netlify.app/",
+      title: "Movie Booking System",
+      href: "https://mbs.shubhranshu.tech",
       dates: "Oct 2024 - Dec 2024",
       active: true,
       description:
-        "Welcome to YumYum, the ultimate restaurant website built with React, Redux, and Tailwind CSS! Discover tantalizing dishes, browse menus, and make reservations effortlessly. Our sleek design ensures a seamless user experience, making your online dining journey delightful. Dive into YumYum – where every click leads to deliciousness!!",
+        "Movie Booking System is a full-stack web application inspired by platforms like BookMyShow, enabling users to browse movies, view cinemas and show timings, and book seats seamlessly. The system supports secure user authentication, real-time seat selection with live seat blocking, booking history, and cancellation features, along with an admin panel for managing movies, cinemas, screens, and shows. Built using the PERN stack (PostgreSQL, Express.js, React.js, Node.js), it integrates Sequelize ORM, JWT authentication, Socket.io for real-time updates, and Tailwind CSS for a responsive and intuitive user experience, demonstrating strong full-stack architecture and real-time application design.",
       technologies: [
         "ReactJS",
-        "Redux",
-        "TailwindCSS",
-        "JavaScript",
-        "HTML",
-        "CSS",
-        "Netlify",
-        "Vercel",
-        "Git",
+        "Node.js",
+        "PostgreSQL",
+        "Express.js",
+        "Socket.io",
+        "JWT",
+        "Docker",
         "GitHub",
       ],
       links: [
         {
           type: "Website",
-          href: "https://yummyum.netlify.app/",
+          href: "https://mbs.shubhranshu.tech",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Source",
-          href: "https://github.com/shubhranshu-pandey/YumYum",
+          href: "https://github.com/shubhranshu-pandey/Movie-Booking-System",
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "/P4.png",
-      
+      image: "/MovieBookingSystem.png",
+
     },
   ],
- 
+
 } as const;
